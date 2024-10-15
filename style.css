@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mooli&family=Poppins:wght@300&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background: #1f2b37;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Mooli', sans-serif;
+    letter-spacing: 4px;
+    justify-content: center;
+    height: 75px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.logo img {
+    width: 20%;
+    cursor: pointer;
+}
+
+.logo {
+    width: 40%;
+    /* margin: 0px 0 0px 90px; */
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.logo span:hover {
+    color: #9ab3cd;
+    font-size: 2.3rem;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    transition: all 0.2s ease-in;
+}
+
+.navlist li a:hover {
+    color: #9ab3cd;
+    /* text-decoration: underline; */
+    font-size: 1.3rem;
+}
+/* car section started */
+.carsSection {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    /* background: #141212; */
+}
+
+.carsSection h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Young Serif', serif;
+}
+ 
+ 
+
+.carInfo {
+    padding: 5px 67px;
+}
+
+.carInfo span {
+    color: #095565;
+    font-size: 1.4rem;
+    font-family: 'Young Serif', serif;
+}
+
+.carInfo li {
+    margin: 3px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    display: flex;
+ 
+    margin: 80px 40px;
+    align-items: center;
+}
+
+.left {
+    width: 60%;
+    float: left;
+    box-shadow: 5px 10px 18px #888888;
+    border: 1px solid #7e8cda;
+    margin: 10px 50px;
+    border-radius: 15px;
+}
+
+
+.left pre {
+    font-size: 1rem;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    /* border: 2px solid black; */
+    /* margin: 10px 20px; */
+}
+
+.box .right img {
+    width: 100%;
+    box-shadow: 5px 10px 18px #888888;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+/* about section started  */
+
+.aboutSection {
+    position: absolute;
+    color: white;
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px 50px;
+    top: 500%;
+    left: 0;
+}
+
+.aboutSection h1 {
+   
+    font-size: 3.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Young Serif', serif;
+     
+}
+
+.about3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about1 .aboutBox {
+    margin: 20px -100px;
+}
+.aboutBox h2{
+    font-family: 'Young Serif', serif;
+}
+.aboutBox p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+
+}
+.aboutBox {
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-radius: 21px;
+    margin: 20px 35px;
+}
+
+.about1 .aboutBox {
+    background: #030b13;
+    opacity: 0.8;
+
+}
+
+.aboutImg img {
+    width: 100%;
+    box-shadow: 5px 2px 22px #343438;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.bg {
+    background: url('/img/about.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.footer {
+    position: absolute;
+    top: 678%;
+    width: 100%;
+    font-family: 'Mooli', sans-serif;
+}
+
+.footerDiv {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+

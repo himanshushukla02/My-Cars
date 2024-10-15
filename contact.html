@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car - contact form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/img/logo.png" alt="">
+            <span>SK cars</span>
+        </div>
+        <ul class="navlist">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#abt">ABOUT US </a></li>
+            <li><a href="#car">CARS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+         
+        </ul>
+    </nav>
+
+    <section id="contact">
+
+        <h1 class="section-header" data-aos="zoom-in">Contact</h1>
+
+        <div class="contact-wrapper">
+
+            <!-- Left contact page -->
+
+            <form id="contact-form" class="form-horizontal" role="form" data-aos="slide-right" data-aos-offset="150">
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value=""
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" class="form-control" id="phone" placeholder="PHONE" name="phone" value=""
+                        required>
+                </div>
+
+                <textarea class="form-control" placeholder="MESSAGE" name="message" required></textarea>
+
+                <button class=" send-button" id="submit" type="submit" value="SEND">SEND
+                </button>
+
+                <button class="  send-button" id="reset" type="reset" value="RESET">RESET
+                </button>
+            </form>
+
+            <!-- Left contact page -->
+
+            <div class="direct-contact-container" data-aos="slide-left">
+
+                <ul class="contact-list">
+                    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place"><a
+                                    href="">Indore , Madhya pradesh</a></span></i></li>
+
+                    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                    href="tel:1-212-555-5555" title="Give me a call">7066-(534)-55</a><span></i></li>
+
+                    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                                    href="mailto:#" title="Send me an email">carinfo@gmail.com</a></span></i></li>
+                </ul>
+
+                <hr>
+                <ul class="social-media-list">
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <hr>
+
+                <div class="copyright" style="cursor: pointer;">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/44b443cf5b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1500,
+        })
+    </script>
+</body>
+
+</html>

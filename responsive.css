@@ -1,0 +1,303 @@
+@media screen and (max-width: 1360px) {
+    .heroSection img {
+        width: 1670px;
+    }
+
+    .aboutSection {
+        top: 460%;
+    }
+
+    .footer {
+        top: 606%;
+
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    .textArea h1 {
+        font-size: 1.7rem;
+    }
+
+    .textArea p {
+        font-size: 0.9rem;
+    }
+
+    .carsSection h1 {
+        font-size: 1.9rem;
+    }
+
+    .carInfo li {
+        font-size: 0.8rem;
+    }
+
+    .carInfo span {
+        font-size: 1rem;
+    }
+
+    .aboutSection {
+        top: 396%;
+    }
+
+    .footer {
+        top: 513%;
+    }
+
+    .aboutSection h1 {
+        font-size: 2.4rem;
+    }
+
+    .aboutBox p {
+        font-size: 0.6rem;
+    }
+
+    .footerDiv {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width : 1000px) {
+    .footer {
+        top: 508%;
+    }
+
+    .carInfo span {
+        font-size: 0.9rem;
+    }
+
+    .carInfo li {
+        font-size: 0.7rem;
+    }
+
+    .logo span {
+        font-size: 1.4rem;
+    }
+
+    .logo span:hover {
+        font-size: 1.6rem;
+    }
+
+    .navlist li a {
+        font-size: 0.7rem;
+    }
+
+    .navlist li a:hover {
+        font-size: 0.9rem;
+    }
+
+    .textArea h1 {
+        font-size: 1.4rem;
+    }
+
+    .textArea p {
+        font-size: 0.7rem;
+    }
+
+
+}
+
+@media screen and (max-width:815px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .carsSection h1 {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        margin: 40px 0px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 80%;
+    }
+
+    .right {
+        width: 60%;
+    }
+
+    .aboutSection {
+        top: 463%;
+    }
+
+    .about1 {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutBox {
+        width: 85%;
+    }
+
+    .aboutBox p {
+        font-size: 0.9rem;
+    }
+
+    .about2,
+    .about3 {
+        flex-direction: column;
+    }
+
+    .footer {
+        top: 912%;
+    }
+
+    .navlist li a {
+        font-size: 0.8rem;
+    }
+
+    .navlist li a:hover {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .logo {
+        width: 76%;
+        justify-content: center;
+    }
+
+    .form-horizontal {
+        margin: 80px 0px;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        display: none;
+    }
+
+    .aboutSection {
+        top: 450%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navlist {
+
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+    .navlist li a {
+        font-size: 0.7rem;
+    }
+
+    .navbar {
+        height: 150px;
+    }
+
+    .logo img {
+        width: 74%;
+    }
+
+    .right {
+        width: 95%;
+    }
+
+    .aboutSection {
+        top: 540%;
+    }
+
+    .aboutBox {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .textArea p {
+        display: none;
+    }
+
+    .banner1 .textArea {
+        top: 470px;
+    }
+
+    .left {
+        margin: 8px;
+        width: 100%;
+        box-shadow: none;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .right {
+        width: 95%;
+    }
+
+    .aboutSection {
+        top: 553%;
+    }
+
+    .aboutSection h1 {
+        font-size: 1.5rem;
+    }
+
+    .about1 .aboutBox {
+        width: 145%;
+    }
+
+    .aboutBox p {
+        font-size: 0.7rem;
+    }
+
+    .aboutBox {
+        width: 100%;
+        margin: 0;
+    }
+
+    .aboutImg img {
+        width: 112%;
+    }
+
+    .about3 {
+        display: none;
+    }
+
+    .aboutSection {
+        top: 530%;
+    }
+
+    .contact-list {
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+
+
+}
+
+@media screen and (max-width:340px) {
+    .logo {
+        width: 60%;
+    }
+
+    .navbar {
+        height: 225px;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+
+        animation: none;
+    }
+}
